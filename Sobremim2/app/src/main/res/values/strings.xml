@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Meu Currículo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sobremim">Sobre Mim</string>
+    <string name="action_experiencia">Experiência</string>
+    <string name="action_formacao">Formação</string>
+
+    <string name="menu_home">Sobre mim</string>
+    <string name="menu_experiencia">Experiência</string>
+    <string name="menu_formacao">Formação</string>
+    <string name="formacao">FORMAÇÃO</string>
+
+</resources>

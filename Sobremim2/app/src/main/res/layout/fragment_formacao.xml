@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/formacao"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:text="cursando\n 2019"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Bacharelado em Ciência da Computação"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="Universidade Católica de Pernambuco - UNICAP"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:text="Previsão de conclusão em 2022"
+                android:textSize="11sp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="FORMAÇÃO COMPLEMENTAR"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:text="2013\n 2011"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Técnico em Desenvolvimento de Software"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="UNIBRATEC - Universidade Brasileira de Tecnologia"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="2011\n 2010"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Técnico-Profissionalizante em Web Design"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="MICROLINS"
+                android:textSize="12sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="2010\n 2009"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Técnico-Profissionalizante em Design Gráfico"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="DATASUL INFORMÁTICA"
+                android:textSize="12sp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="CURSOS COMPLEMENTARES"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:text="2013\n 2011"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Conceitos e Fundamentos: Swi, Javascript e RESTful API - 65h"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="UNIBRATEC - Universidade Brasileira de Tecnologia"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="2011\n 2010"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Projeto de Extensão na Liga Acadêmica de Neurociência Aplicada - 120h"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="MICROLINS"
+                android:textSize="12sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2018"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Extensão em Programação de Computadores e Dispositivos Móveis - 200h"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="IFSP - Instituto Federal de São Paulo"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2017"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Gestão Estratégica de TI - ITIL"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="Fundação Bradesco"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2017"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Gestão de Riscos em TI"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="RNP - Rede Nacional de Ensino e Pesquisa"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2016"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Análise de Negócios e Profissionais de Projetos, de Processos e de Negócio"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="IETEC - Instituto de Educação Tecnológica"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2016"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Estratégia de Negócios"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="Fundação Bradesco"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2016"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Gestão de Processos Business Process Management (BPM)"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="Fundação Bradesco"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2016"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Curso Geral de Propriedade Intelectual"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="INPI - Instituto Nacional de Propriedade Industrial"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:text="2016"
+                android:textAlignment="textEnd"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="280dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="-28dp"
+                android:text="Fundamento de Redes"
+                android:textSize="12sp"
+                android:textColor="#070707"/>
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1dp"
+                android:textColor="#5289B5"
+                android:text="Microsoft"
+                android:textSize="12sp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
